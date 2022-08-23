@@ -7,9 +7,11 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Photo />} />
-        <Route path ="/" element={<Hello/>}/>
+        <Route path="/photo" element={<Photo />} />
+        <Route path="/" element={<Hello />} />
       </Routes>
     </Router>
   );
 }
+
+
